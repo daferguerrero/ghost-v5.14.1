@@ -30,14 +30,14 @@
   "caching": {
     "resetPassword": {
       "rateLimits": {
-        "attempts": 200,  // Aumenta el número de intentos permitidos
-        "period": 60    // Ajusta el período en segundos (aquí se mantiene a 3600)
+        "attempts": 200,
+        "period": 60
       }
     },
     "forgottenPassword": {
       "rateLimits": {
-        "attempts": 200,  // Aumenta el número de intentos permitidos
-        "period": 60    // Ajusta el período en segundos (aquí se mantiene a 3600)
+        "attempts": 200,
+        "period": 60
       }
     }
   }
